@@ -21,9 +21,13 @@ input::backdrop{
 }
 .search_button{
     margin-top: 10px;
-    /* text-align: center; */
     padding:5px;
     margin-left: 5px;
+}
+
+.search_image_button{
+    margin-top: 10px;
+    padding:5px;
 }
 
 .search_field{
