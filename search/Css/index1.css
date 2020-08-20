@@ -42,3 +42,29 @@ input::backdrop{
 .rounded-pill{
     outline: none;
 }
+.head_advance{
+    text-align: right;
+}
+.logo-image{
+    height: 40px;
+    width:110px;
+    margin-top:auto;
+    margin-bottom:auto;
+    padding:3px;
+}
+.m{
+    margin-top: 10px;
+}
+.nvb{
+    margin-top:15px;
+    margin-bottom:auto;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:50px;
+    color:red;
+    width: 800px;
+}
+.na2{
+    border-bottom: 1px solid lightblue;
+    height: 70px;
+}
