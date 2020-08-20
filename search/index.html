@@ -16,18 +16,19 @@
         <div class="container">
             <div class="row justify-content-center im"> 
                 <div >    
-                    <img src="F:\web with javascript and Django\project0\search\images\google2.0.1.jpg" alt="google" class="image-fluid image">
+                    <img src="F:\web_with_javascript_and_Django\project0\Saarch\search\images\google2.0.1.jpg" alt="google" class="image-fluid image">
                 </div> 
             </div>
         </div>
         <div class="container">   
              
-                <form action="https://google.com/search">  
+                <form method = "GET" action="https://google.com/search">  
                         <div class="row justify-content-center">
                             <input type="text" autocomplete="off" name="q" placeholder="Search Google" class="search_field border border-info rounded-pill form-control  col-md-12  col-xl-6"id="inlineFormInputName">
                         </div>
                         <div class="row justify-content-center">
-                            <input type="submit" value="Google Search" class="search_button btn btn-primary"  >
+                            <input type="submit" value="Google Search" class="search_button btn btn-light"  >
+                            <input type="submit" id="lucky" name="btnI" value="I'm feeling lucky" class="search_button btn btn-light"  >
                         </div>           
                  </form>
            

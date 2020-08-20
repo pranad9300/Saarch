@@ -23,6 +23,7 @@ input::backdrop{
     margin-top: 10px;
     /* text-align: center; */
     padding:5px;
+    margin-left: 5px;
 }
 
 .search_field{
