@@ -17,24 +17,76 @@
         </header>
         
         <nav  class="na2"  >
-                 <p class=" nvb" >Advance Search</p>
+                 <p class=" nvb" >Advanced Search</p>
         </nav>
         
         <div class="main">
+
             <div class="row">
-               <div class="col-xl-12 col-sm-12">
-                   Find Pages with
+               <div class=" col-sm-3 ">
+                   <h3>Find Pages with</h3>
                </div>
+               <div class="col-sm-auto find">
+                   <h3>To do this in the search box.</h3>
+               </div>    
             </div>
-            <div>
-                <form action="">
-                    <label for="with_words">forwords</label>
-                    <input type="text" id="_words">
+
+            <div class="f1">
+
+                <form method="GET" action="https://www.google.com/search">
+
+                    <div class="f1 form-group row">
+                        <label for="all_words" class="col-sm-2 col-form-label col-form-label-lg">all these words:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control form-control-lg" name="as_q" id="all_words" >
+                        </div>
+                    </div>
+                    
+                    <div class="f1 form-group row">
+                        <label for="eaep" class="col-sm-2 col-form-label col-form-label-lg">this exact word or phrase:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control form-control-lg" name="as_epq" id="eaep" >
+                        </div>
+                    </div>
+
+                    <div class="f1 form-group row">
+                        <label for="aotw" class="col-sm-2 col-form-label col-form-label-lg">any of these words:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control form-control-lg" name="as_oq" id="aotw" >
+                        </div>
+                    </div>
+                    
+                    <div class="f1 form-group row">
+                        <label for="notw" class="col-sm-2  col-form-label col-form-label-lg">none of these words:</label>
+                        <div class="col-sm-5">
+                            <input type="text" class="form-control form-control-lg" name="as_eq" id="notw" >
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-sm-2 ">
+                            <p style="font-size:large;">Submit and see for advanced serach result</p>
+                        </div>
+                        <div class="col-sm-auto">
+                            <input type="submit" class="btn btn-primary" value="Advanced Search">
+                        </div>
+                        
+                    </div>
+                     
                 </form>
             </div>
-           
         </div>
-       
+
+        
+        <footer class="foot ">
+            <p class="foot1 "> 
+                <a  href="#" class=" disabled" style="border-bottom-style: 1px solid lightblue;">India</a>
+                <br>
+                <a href="#" class="disabled" style="margin-right:10px;">Help</a>
+                <a href="#" class="disabled" style="margin-right:10px;">Privacy</a>
+                <a href="#" class="disabled">Terms</a>
+            </p>
+        </footer>
 
     </body>
 </html>

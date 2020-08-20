@@ -60,11 +60,35 @@ input::backdrop{
     height: 50px;
 }
 .nvb{
-    margin:15px auto auto 3% ;
+    margin: 1% auto auto 3% ;
     font-size: larger;
     color:red;
 }
 .main{
     margin-top:2%;
     margin-left: 3%;
+}
+
+.f1{
+      margin-top:2%;
+}
+
+@media only screen and (max-width: 325px) {
+    find {
+        display: none;
+    }
+}
+.find{
+     display: inline;
+}
+.foot{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   border:1px solid lightblue;
+}
+.foot1{
+    margin-left:3%;
 }
