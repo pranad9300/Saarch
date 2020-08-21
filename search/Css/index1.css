@@ -92,3 +92,8 @@ input::backdrop{
 .foot1{
     margin-left:3%;
 }
+.ph{
+    font-style: oblique;
+    font-size: small;
+    text-align: center;
+}
